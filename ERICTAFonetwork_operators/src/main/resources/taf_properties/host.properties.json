@@ -1,0 +1,31 @@
+[
+	{
+	"hostname": "atclvm1231",
+    "ip": "10.59.140.216",
+    "type": "UNKNOWN",
+    "users": [
+        {"username": "simnet", "password": "simnet", "type": "admin"}
+        ],
+        "ports": {"ssh": 22},
+		"nodes": [
+					{
+						"hostname": "netsim",
+						"ip": "netsimv006-04.athtem.eei.ericsson.se",
+						"type": "NETSIM",
+						"users": 
+						[
+							{
+								"username": "netsim",
+								"password": "netsim",
+								"type": "admin"
+							}
+						],
+						"ports": 
+						{
+							"ssh": 22
+						},
+						"tunnel": 1
+					}
+				]
+	}
+]

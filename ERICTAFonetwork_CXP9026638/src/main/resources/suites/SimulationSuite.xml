@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="SimulationSuite">
+    <test name="SimulationSuite" preserve-order="true">
+        <classes>
+            <class name="com.ericsson.ci.simnet.SimulationTest" />
+            <methods>
+                <include name="verifyTestSimulationHasCorrectNumberOfNodes" />
+                <include name="verifyTestSimulationHasAllNodesStarted" />
+                <include name="verifySimulationHasAllCells" />
+            </methods>
+        </classes>
+    </test>
+</suite>
